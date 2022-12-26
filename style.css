@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+    background-color: rgb(183, 183, 219);
+}
+
+.container{
+    display: flex;
+    border: 1px solid black;
+    width: 700px;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.bill-div{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin : 10px 0;
+
+}
+
+.btns{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 2px;
+    margin : 10px 0;
+
+}
+.tip-btns{
+    width: 100px;
+
+}
+
+.people-holder{
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+    margin-top: 10px;
+}
+
+.right-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: aqua;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+#reset{
+    width: 300px;
+    text-align: center;
+    padding: 5px;
+}
